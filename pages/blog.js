@@ -14,7 +14,7 @@ export default function Blog()
                 url= { MetaData.url }
             />
             <h1>Blog posts</h1>
-            <h3>Still Working on it</h3>
+            <h3>Still Working on it ...</h3>
         </div>
     )
 }
