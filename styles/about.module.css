@@ -1,0 +1,70 @@
+/*About Page Styles*/
+
+.about {
+    height: 10vh;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .about_content {
+      margin-left: auto;
+      margin-left: auto;
+      position:relative;
+      flex-direction:column;
+      top: 50px;
+      padding: 15px 10px;
+    }
+  
+  .about_content p {
+      font-family: sans-serif;
+      letter-spacing: 0.1rem;
+      line-height: 2rem;
+      font-size: 1.5rem;
+      margin-left: 2rem;
+    }
+  
+  .about_header {
+      display: flex;
+  }
+  
+  .about_header span {
+      color: crimson;
+  }
+    
+.about img {
+  width: 70px;
+  height: 70px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.about h1 {
+  padding-top: 20px;
+}
+
+.skills {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+
+@media screen and (max-width: 720px) {
+  .about_content p {
+    font-size: 1.2rem;
+    margin-left: 1rem;
+  } 
+  .about img {
+    width: 40px;
+    height: 40px;
+    padding-bottom: 10px;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  .skills {
+    padding: 10px;
+    gap: 50px;
+  }
+}
+  

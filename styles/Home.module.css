@@ -3,31 +3,95 @@
 }
 
 .main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
+  background-position: center center;
+  background-size: cover;
+  min-height: 50vh;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
+  flex-shrink: 1;
 }
 
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
+.img {
+  justify-content: right;
+  align-items:flex-end;
+  object-fit: cover;
+  border-radius: 50%;
+  padding: 10px;
 }
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+.header {
+  height: auto;
+  width: 100%;
+  padding: 10px 0px;
+  margin-bottom: 60px;
 }
 
+.header h1 {
+  font-size: 2.3rem;
+  color: #6f1da2;
+}
+
+.message_button {
+  height: 40px;
+  width: 150px;
+  margin-top: 40px;
+  border: 2px solid crimson;
+  background-color: rgb(34, 151, 157);
+  color:  black;
+  text-align: center;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  transition: 0.3s ease;
+  transition-property: background-color, color;
+}
+
+.message_button:hover {
+  color: white;
+  background-color: crimson;
+}
+.recent_projects h1 {
+  text-align: center;
+  font-size: 2.3rem;
+  color: #6f1da2;
+  margin-bottom: 20px;
+}
+
+.project_cards {
+  padding-bottom: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+}
+
+.project_cardss {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  gap: 10px
+}
+
+@media screen and (max-width: 720px) {
+  .main {
+    padding-top: 50px;
+    min-height: 30vh;
+    display: flex;
+    flex-shrink: 1;
+  }
+  .header h1 {
+    padding-top: 20px;
+    font-size: 1.7rem;
+  }
+  .img {
+    width: 200px;
+    height: 200px;
+  }
+  .project_cards {
+    grid-template-columns: auto;
+  }
+}
+
+/*
 .title a {
   color: #0070f3;
   text-decoration: none;
@@ -127,3 +191,4 @@
     filter: invert(1);
   }
 }
+*/
