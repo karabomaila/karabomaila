@@ -35,12 +35,17 @@ export default function Projects()
                         projectImage="/project_images/cousers-unsplash.jpg"                    
                     />
                     <ProjectCard
+                        title="Escape Room Game"
+                        description="Is a game where you answer questions and if you get 
+                        them correct you go to the next stage."
+                        projectImage="/project_images/chat-png-image.png"                    
+                    />
+                   <ProjectCard
                         title="Android chatting app"
                         description="A mobile app where users can invite and 
                         chatt to each other, and also see statuses of their friends"
                         projectImage="/project_images/chat-png-image.png"                    
                     />
-                    
                 </div>
         </div>    
         </div>

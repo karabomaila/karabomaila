@@ -1,6 +1,7 @@
 import MetaData from '../components/MetaData'
 import PageHead from '../components/PageHead'
 import styles from '../styles/about.module.css'
+import Image from 'next/image'
 
 export default function About()
 {
@@ -28,11 +29,11 @@ export default function About()
                         <div>
                             <h1>Skills</h1>
                             <div className={ styles.skills }>
-                                <img src='/about_images/logo-html5.svg' alt='HTML Icon' />
-                                <img src='/about_images/logo-css3.svg' alt='CSS Icon' />
-                                <img src='/about_images/logo-javascript.svg' alt='JavaStript Icon' />
-                                <img src='/about_images/logo-react.svg' alt='React Icon' />
-                                <img src='' alt='Next Js Icon' />
+                                <Image src='/about_images/logo-html5.svg' alt='HTML Icon' width={250} height={250} />
+                                <Image src='/about_images/logo-css3.svg' alt='CSS Icon' width={250} height={250} />
+                                <Image src='/about_images/logo-javascript.svg' alt='JavaStript Icon' width={250} height={250} />
+                                <Image src='/about_images/logo-react.svg' alt='React Icon' width={250} height={250} />
+                                <Image src='' alt='Next Js Icon' width={250} height={250}/>
                             </div>
                         </div>
                     </div>
