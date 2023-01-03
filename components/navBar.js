@@ -20,7 +20,7 @@ export default function Navbar()
     }
     return (
         <header className= { styles.header }>
-            <a href="/" className={ styles.logo }>Karabo Maila</a>
+            <Link href="/" className={ styles.logo }>Karabo Maila</Link>
             <div className={ styles.humburger } onClick={(e) =>  tog(e)} > <div className={ styles.bar }></div> </div>
             <nav className={ styles.navbar }>
                 <ul className={ styles.navbar_ul }>
