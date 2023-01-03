@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/08e7e804-9c45-4bef-9816-3f528b641f48/deploy-status)](https://app.netlify.com/sites/magical-selkie-7d98f3/deploys)
+
 ### Hi there 👋
 
 <!--
