@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/64d939a5-78b2-4009-9d6a-3ea51229abc1/deploy-status)](https://app.netlify.com/sites/karabomaila/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/08e7e804-9c45-4bef-9816-3f528b641f48/deploy-status)](https://app.netlify.com/sites/magical-selkie-7d98f3/deploys)
 
 ### Hi there 👋
 
