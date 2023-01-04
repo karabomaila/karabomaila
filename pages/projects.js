@@ -38,7 +38,7 @@ export default function Projects()
                         title="Escape Room Game"
                         description="Is a game where you answer questions and if you get 
                         them correct you go to the next stage."
-                        projectImage="/project_images/chat-png-image.png"                    
+                        projectImage="/project_images/escape.jpg"                    
                     />
                    <ProjectCard
                         title="Android chatting app"
