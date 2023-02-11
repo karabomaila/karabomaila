@@ -68,3 +68,18 @@
     border: 2px solid crimson;
     cursor: pointer;
 }
+
+@media screen and (max-width: 500px) {
+    .contact h1 {
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 1.3rem;
+    }
+    .contact .form_container {
+        display: block;
+        max-width: 20rem;
+        margin: 0 auto;
+        /* padding: 1rem; */
+        border-radius: 5px;
+    }        
+}

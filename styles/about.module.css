@@ -50,11 +50,25 @@
   gap: 70px;
 }
 
-@media screen and (max-width: 720px) {
-  .about_content p {
-    font-size: 1.2rem;
-    margin-left: 1rem;
-  } 
+@media screen and (max-width: 500px) {
+  .about_content {
+    margin-left: auto;
+    margin-left: auto;
+    position:relative;
+    flex-direction:column;
+    top: 60px;
+    padding: 15px 10px;
+  }
+  .about_header h1 {
+    font-size: 1.5rem;
+}
+.about_content p {
+    font-family: sans-serif;
+    letter-spacing: 0.1rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    margin-left: 1.5rem;
+  }
   .about img {
     width: 40px;
     height: 40px;

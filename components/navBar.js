@@ -14,8 +14,14 @@ export default function Navbar()
     //     })
     // }, [])
     const tog = (event) => {
+        const menu = document.querySelector("humburger");
+        const nav = document.querySelector("nav");
+        console.log(nav)
+        const ul = document.querySelector("nav ul");
+        // menu.addEventListener("click", () => {
+        //     ul.classList.toggle("show");})
         // const ul = document.querySelector("nav ul");
-        // ul.classList.toggle("show");
+        ul.classList.toggle("show");
         console.log("working")
     }
     return (
