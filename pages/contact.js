@@ -33,7 +33,7 @@ export default function Contact()
                         required> 
                     </textarea>
 
-                    <input type="submit" value="submit" className={ styles.submit_btn } />
+                    <input type="submit" value="Submit" className={ styles.submit_btn } />
                 </form>
                 </div>
             </div>

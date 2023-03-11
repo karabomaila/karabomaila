@@ -10,6 +10,9 @@
   align-items: center;
   justify-content: space-between;
   background-color: aqua;
+  /*
+  height: 80px;
+  padding: 0 2rem;*/
 }
 
 .logo {
@@ -20,7 +23,7 @@
   border-radius: 50%;
 }
 
-.navbar {
+.nav {
   top: 0;
   left: 0;
   position: sticky;
@@ -43,7 +46,6 @@
   text-transform: capitalize;
 }
 
-
 .navbar_ul li {
   display: inline-block;
   transition: 0.3s linear;
@@ -56,6 +58,7 @@
   font-weight: 550;
   letter-spacing: 0.5px;
   transition: 0.3s linear;
+  margin: 0 1.5rem;
   padding: 8px;
 }
 
@@ -82,80 +85,20 @@
   color: aliceblue;
 }
 
-.humburger {
-  height: 35px;
-  width: 35px;
-  display: inline-block;
-  border: 3px solid white;
-  border-radius: 50%;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 100;
+
+.header .nav_btn_open {
+  padding: 5px;
   cursor: pointer;
-  margin-top: 5px;
-  left: 35%;
+  background: transparent;
+  border: none;
+  outline: none;
+  visibility: hidden;
+  opacity: 0;
+  color: blue;
 }
 
-.humburger::after {
-  position: absolute;
-  content: "";
-  height: 100%;
-  width: 100%;
-  border-radius: 50%;
-  border: 3px solid white;
-  animation: humburger_puls 1s ease infinite;
-}
-
-.humburger .bar {
-  height: 2px;
-  width: 30px;
-  position: relative;
-  background-color: #000000;
-  z-index: -1;
-}
-
-.humburger .bar::after,
-.humburger .bar::before {
-  content: " ";
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  left: 0;
-  background-color: white;
-  transition: 0.3 ease;
-  transition-property: top, bottom;
-}
-
-.humburger .bar::after {
-  top: 6px;
-}
-
-.humburger .bar::before {
-  bottom: 6px;
-}
-
-.humburger .active .bar::before {
-  bottom: 0;
-}
-
-.humburger .active .bar::after {
-  top: 0;
-}
-
-@keyframes humburger_puls {
-  0% {
-    opacity: 1;
-    transform: scale(1);
-  }
-  100% {
-    opacity: 0;
-    transform: scale(1.3);
-  }
-}
-
-@media screen and (max-width: 720px) {
+/* for smaller screens */
+@media only screen and (max-width: 1024px) {
   .header {
     padding: 0px 0px;
   }
@@ -167,66 +110,63 @@
     margin-left: 10px;
   }
 
-  .humburgers {
-    display: flex;
-  }
-  .navbar {
-    height: 55px;
-    margin-right: 10px;
-    padding: 0px;
-  }
-
-  .navbar_ul {
-    width: 80%;
-    margin-top: 10px;
-    margin-left: 10%;
-    flex-direction: column;
-    transform: translateX(120%);
-    transition: transform 0.5s ease-in;
-    text-align: center;
-  }
-
-  .navbar_ul li {
-    display: inline-block;
-    transition: 0.3s linear;
+   /*for both bottons style  */
+  .header .nav_btn_open {
+      visibility: visible;
+      opacity: 1;
   }
   
-  .navbar_ul a {
-    text-decoration: none;
-    color: black;
+  /* to cover the whole page */
+
+  .nav {
+      position: fixed;
+      top: 0;
+      left: 60%;
+      margin-right: 0;
+      height: 50%;
+      width: 40%;
+      align-items: center;
+      justify-content: center;
+      background-color: chocolate;
+      transition: 1s;
+      transform: translateY(-100vh);
+  }
+
+    .navbar_ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.5s ease-in;
+      text-align: center;
+  }
+
+  .header .responsive_nav {
+      transform: none;
+  }
+
+  .nav .nav_close {
+      position: absolute;
+      top: 2rem;
+      right: 2rem;
+  }
+
+    .navbar_ul a {
     font-size: 1rem;
     font-weight: 550;
     letter-spacing: 0.5px;
     transition: 0.3s linear;
-    padding: 8px;
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-
-  .navbar ul.show {
-    transform: translateX(0);
-  }
-}
-
-@media only screen and (min-width: 700px) {
-  .humburger {
-    display: none;
-  }
-
-  /*.navbar_ul {
-    position: initial;
-    display: block;
-    height: auto;
-    width: fit-content;
-    background-color: transparent;
-  }
-
- /* .navbar ul li{
+  
+  .navbar_ul li {
     display: inline-block;
-  }  
-  .navbar ul li .link {
-    font-size: 1.5rem;
+    transition: 0.3s linear;
   }
-
-  .navbar ul a::after {
-    display: none;
-  }*/
 }
+
+

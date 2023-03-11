@@ -20,5 +20,3 @@ export default function PageHead({ title = MetaData.siteName, description = Meta
         </Head>
     )
 }
-
-//export default PageHead;
