@@ -2,7 +2,7 @@
 
 ### Hi there 👋, welcome to my repository.
 - 😄 Pronouns: He/him
-- 📫 How to reach me or learn more about me: [https://karabomaila.netlify.app/]()
+- 📫 How to reach me or learn more about me: [https://karabomaila.netlify.app]()
 
 <!--
 **karabomaila/karabomaila** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
