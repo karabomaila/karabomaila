@@ -21,9 +21,9 @@ export default function About()
                             <h1>About  <span>Karabo</span> </h1>
                             <p>I am from Ivory Park, Johannesburg. I am self-motivated, hard working 
                                 and a disciplined individual. My strengths include being organised, willing
-                                to learn and punctual. I am passiotnate about software development and using 
+                                to learn and punctual. I am passionate about software development and using 
                                 technology to change peoples lives. My interests are reading books, travelling,
-                                going out, investing and meditation.
+                                investing and meditation.
                             </p>
                         </div>
                         <div>
