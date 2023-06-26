@@ -23,7 +23,7 @@ export default function Project({ frontmatter: { title, author}, slug, content }
                 logo= { MetaData.logo }
                 url= { MetaData.url }
             />
-            <main className={ styles.projects }>
+            <main className={ `${styles.projects}  ${styles.project_post}` }>
                 <h1>{ title }</h1>
                 <h3  className={ styles.post_date } >Author { author }</h3>
                 <div className={ styles.post_body } >

@@ -1,7 +1,6 @@
 import Image from "next/image";
 import styles from '../styles/projects.module.css'
 import { useRouter } from 'next/router'
-import Link from 'next/link'
 
 const ProjectCard = ({title, description, projectImage, url}) =>
 { 
