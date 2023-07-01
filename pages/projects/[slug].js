@@ -7,7 +7,9 @@ import marked from 'marked'
 import MetaData from '../../components/MetaData'
 import PageHead from '../../components/PageHead'
 import styles from '../../styles/projects.module.css'
+import Link from 'next/link';
 // import Image from 'next/image'
+import { FaArrowLeft } from "react-icons/fa"
 
 
 export default function Project({ frontmatter: { title, author}, slug, content })
@@ -23,11 +25,12 @@ export default function Project({ frontmatter: { title, author}, slug, content }
                 logo= { MetaData.logo }
                 url= { MetaData.url }
             />
-            <main className={ `${styles.projects}  ${styles.project_post}` }>
-                <h1>{ title }</h1>
-                <h3  className={ styles.post_date } >Author { author }</h3>
-                <div className={ styles.post_body } >
-                    <div dangerouslySetInnerHTML={{ __html: marked(content)}} ></div>
+            <main className={`${styles.projects}  ${styles.project_post}`}>
+                <Link href="/projects" className={styles.project_post_back_link}><FaArrowLeft className={styles.arrow} /> Back to Projects</Link>
+                <h1>{title}</h1>
+                <h3  className={ styles.post_author }>Author { author }</h3>
+                <div className={ styles.post_body }>
+                    <div dangerouslySetInnerHTML={{ __html: marked(content)}}></div>
                 </div>
             </main>
         </div>
@@ -42,8 +45,6 @@ export async function getStaticPaths() {
             slug: filename.replace('.md', ''),
         },
     }))
-    // const paths = {params : { slug: "javascript-performance-tips" }} 
-    console.log(paths)
     return {
         paths,
         fallback: false,

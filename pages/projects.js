@@ -19,24 +19,25 @@ export default function Projects()
                 <h1>Projects</h1>
                 <div className={ styles.project_cards }>
                     <ProjectCard
+                        title="Titanic Survivor Detection"
+                        description="A Machine Learning model to predict if a
+                        passenger would survive the Titanic ship wreck."
+                        projectImage="/project_images/cousers-unsplash.jpg"
+                        url="/projects/titanic-model"
+                    />
+                    <ProjectCard
                         title="Portfolio Project"
-                        description="A website to share info about myself"
+                        description="A website to share info about myself and the projects I have worked on"
                         projectImage="/project_images/portfolio.png"
                         url="/projects/portfolio-project"
                     />
                     <ProjectCard
                         title="Wits Social"
-                        description="A chatting app similar to Whatapp"
+                        description="A chatting web app similar to Whatapp"
                         projectImage="/project_images/Social_media_podcast_sharing.png" 
                         url="/projects/wits-social"
                     />
-                    <ProjectCard
-                        title="Short Courses System"
-                        description="A learning system where the community of wits, 
-                        students and staff can create and enrol in courses."
-                        projectImage="/project_images/cousers-unsplash.jpg"
-                        url="/projects/short-courses"
-                    />
+
                     <ProjectCard
                         title="Escape Room Game"
                         description="Is a game where you answer questions and if you get 
@@ -47,7 +48,7 @@ export default function Projects()
                    <ProjectCard
                         title="Android chatting app"
                         description="A mobile app where users can invite and 
-                        chatt to each other, and also see statuses of their friends"
+                        chart to each other, and also see status of their friends"
                         projectImage="/project_images/chat-png-image.png" 
                         url="/projects/chatting-app"
                     />
