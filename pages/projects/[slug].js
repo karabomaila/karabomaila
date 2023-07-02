@@ -26,7 +26,7 @@ export default function Project({ frontmatter: { title, author}, slug, content }
                 url= { MetaData.url }
             />
             <main className={`${styles.projects}  ${styles.project_post}`}>
-                <Link href="/projects" className={styles.project_post_back_link}><FaArrowLeft className={styles.arrow} /> Back to Projects</Link>
+                <Link href="/projects" className={styles.project_post_back_link} passHref ><FaArrowLeft className={styles.arrow} /> Back to Projects</Link>
                 <h1>{title}</h1>
                 <h3  className={ styles.post_author }>Author { author }</h3>
                 <div className={ styles.post_body }>
