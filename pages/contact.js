@@ -19,7 +19,7 @@ export default function Contact()
                 <div>
                 <form action='https://formspree.io/f/moqbzkaa' method='POST'>
                     <div>
-                        <label for="name" >Name</label>
+                        <label htmlForfor="name" >Name</label>
                         <input type="text" name="name" placeholder='Enter Your Name' required className='name_input' />
                     </div>
                     <div>
