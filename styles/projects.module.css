@@ -191,3 +191,15 @@
         margin-left: 5px;
     }
 }
+
+@media only screen and (min-width: 721px) and (max-width: 1007px) {
+    .card_title {
+        line-height: 1.3rem;
+    }
+
+    .card_description {
+        text-align: center;
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+}

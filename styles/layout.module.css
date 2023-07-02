@@ -8,13 +8,24 @@
     background-color: aqua;
 }
 
+@media screen and (max-width: 640px) {
+    .container {
+        max-width: 60rem;
+        margin-top: 50px;
+        padding: 0 1rem;
+        margin: 0 auto;
+        min-height: 110vh;
+        background-color: aqua;
+    }        
+}
+
 @media screen and (min-width: 900px) {
     .container {
         max-width: 60rem;
         margin-top: 50px;
         padding: 0 1rem;
         margin: 0 auto;
-        margin-top: 50px;
+        margin-top: 30px;
         min-height: 100vh;
         background-color: aqua;
     }        
