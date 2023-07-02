@@ -23,12 +23,12 @@ export default function Contact()
                         <input type="text" name="name" placeholder='Enter Your Name' required className='name_input' />
                     </div>
                     <div>
-                        <label for="name" >Email</label>
+                        <label htmlForfor="name" >Email</label>
                         <input type="email" name="email" placeholder='Enter Your Email' required 
                             className='email_input' />
                     </div>
 
-                    <label for="name" >Message</label>
+                    <label htmlForfor="name" >Message</label>
                     <textarea cols="60" rows="10" name="message" placeholder='Enter Your Message' 
                         required> 
                     </textarea>
