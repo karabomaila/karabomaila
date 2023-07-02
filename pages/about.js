@@ -19,7 +19,7 @@ export default function About()
                     <div className={ styles.about_content }>
                         <div className={ styles.about_header }>
                             <h1>About  <span>Karabo</span> </h1>
-                            <p>I am from Ivory Park, Johannesburg. I am self-motivated, hard working 
+                            <p>I am from Ivory Park, Midrand. I am self-motivated, hard working 
                                 and a disciplined individual. My strengths include being organised, willing
                                 to learn and punctual. I am passionate about software development and using 
                                 technology to change peoples lives. My interests are reading books, travelling,

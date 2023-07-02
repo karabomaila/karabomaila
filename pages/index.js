@@ -29,22 +29,25 @@ export default function Home() {
                     <h1>Recent Projects</h1>
                   <div className={ styles.project_cards }>
                     <ProjectCard
+                        title="Titanic Survivor Detection"
+                        description="A Machine Learning model to predict if a
+                        passenger would survive the Titanic ship wreck."
+                        projectImage="/project_images/cousers-unsplash.jpg"
+                        url="/projects/titanic-model"
+                    />
+                    <ProjectCard
                         title="Personal Portfolio Project"
                         description="A website to share info about myself"
                         projectImage="/project_images/portfolio.png"
+                        url="/projects/portfolio-project"
                     />
                     <ProjectCard
                         title="Wits Social"
-                        description="A chatting app similar to Whatapp"
-                        projectImage="/project_images/Social_media_podcast_sharing.png"                   
+                        description="A chatting web app similar to Whatapp"
+                        projectImage="/project_images/Social_media_podcast_sharing.png"   
+                        url="/projects/wits-social"                
                     />
-                    <ProjectCard
-                        title="Short Courses System"
-                        description="A learning system where the community of wits, 
-                        students and staff can create and enrol in courses."
-                        projectImage="/project_images/cousers-unsplash.jpg"                    
-                    />
-                        </div>
+                  </div>
           </div>
         </section>
     </div>
