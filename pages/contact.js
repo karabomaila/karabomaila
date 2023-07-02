@@ -19,16 +19,16 @@ export default function Contact()
                 <div>
                 <form action='https://formspree.io/f/moqbzkaa' method='POST'>
                     <div>
-                        <label htmlForfor="name" >Name</label>
+                        <label htmlFor="name" >Name</label>
                         <input type="text" name="name" placeholder='Enter Your Name' required className='name_input' />
                     </div>
                     <div>
-                        <label htmlForfor="name" >Email</label>
+                        <label htmlFor="name" >Email</label>
                         <input type="email" name="email" placeholder='Enter Your Email' required 
                             className='email_input' />
                     </div>
 
-                    <label htmlForfor="name" >Message</label>
+                    <label htmlFor="name" >Message</label>
                     <textarea cols="60" rows="10" name="message" placeholder='Enter Your Message' 
                         required> 
                     </textarea>
