@@ -25,7 +25,7 @@ export default function Navbar()
             </nav>
             {/* For opening the menu for smaller screens */}
             <button className={styles.nav_btn_open} onClick={ () => setNavActive(!navActive) }>
-                <FaBars/>
+                <FaBars className={ styles.fabars }/>
             </button>
         </header>
     )
