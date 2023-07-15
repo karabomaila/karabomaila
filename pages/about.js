@@ -33,7 +33,7 @@ export default function About()
                                 <Image src='/about_images/logo-css3.svg' alt='CSS Icon' width={250} height={250} />
                                 <Image src='/about_images/logo-javascript.svg' alt='JavaStript Icon' width={250} height={250} />
                                 <Image src='/about_images/logo-react.svg' alt='React Icon' width={250} height={250} />
-                                <Image src='' alt='Next Js Icon' width={250} height={250}/>
+                                <Image src='/about_images/logo-next-js.svg' alt='Next Js Icon' width={250} height={250}/>
                             </div>
                         </div>
                     </div>

@@ -183,12 +183,14 @@
         font-size: 100%;
         line-height: 1.5;
         margin-left: 5px;
+        list-style-type: none;
     }
 
     .post_body ol {
         font-size: 110%;
         line-height: 1.5;
         margin-left: 5px;
+        list-style-type: none;
     }
 }
 
