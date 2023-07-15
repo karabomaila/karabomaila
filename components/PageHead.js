@@ -20,8 +20,7 @@ export default function PageHead({ title = MetaData.siteName, description = Meta
             <meta property='og:type' content={ ogType } />
             <meta property='og:image' content={ logo } />
             <meta property='og:url' content={url} />
-
-            <meta name="robots" content="index, follow" />
+ 
             <meta name="author" content="Karabo Maila" />
         </Head>
     )
