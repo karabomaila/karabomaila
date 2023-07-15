@@ -7,7 +7,7 @@ export default function PageHead({ title = MetaData.siteName, description = Meta
     return (
         <Head>
             <title>{title}</title>
-            {/* <meta name="google-site-verification" content="IN46jp8RZq0u1wIxJdb8kN6gEDs7GZzkB0TMOyZ3aY4" /> */}
+            <meta name="google-site-verification" content="IN46jp8RZq0u1wIxJdb8kN6gEDs7GZzkB0TMOyZ3aY4" />
             {/* <meta charSet='utf-8' /> */}
             <meta name="description" content={ description } />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
