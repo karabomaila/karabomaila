@@ -20,7 +20,7 @@ export default function PageHead({ title = MetaData.siteName, description = Meta
             <meta property='og:type' content={ ogType } />
             <meta property='og:image' content={ logo } />
             <meta property='og:url' content={url} />
-            {/* <meta name="keywords" content="my, page, keywords" /> */}
+            <meta name="keywords" content="Karabo Maila, Karabo Maila's portfolio projects, Software Engineer, Machine Learning" />
             <meta name="robots" content="index, follow" />
             <meta name="author" content="Karabo Maila" />
         </Head>
