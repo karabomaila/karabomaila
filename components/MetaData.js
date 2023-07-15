@@ -1,8 +1,8 @@
 const MetaData =  {
     siteName : "Karabo Maila",
-    url: "",
-    logo: "",
-    email: "",
+    url: "https://karabomaila.netlify.app",
+    logo: "Karabo Maila",
+    email: "mailakarabo3@gmail.com",
     description: "karabo Maila portfolio web site and other interesting stuff"
 }
 
