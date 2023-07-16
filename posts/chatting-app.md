@@ -5,6 +5,8 @@ author: Karabo Maila
 
 It was a project that I worked on in my second year of my BSc degree in Computer Science. It was a school project and I worked with a classmate. Were allowed to form group of two and work on a project we selected. 
 
+![Chatting app image](/project_images/chat-png-image.png)
+
 The project was about developing a chatting app similar to WhatsApp where a user can send message to their friend, post statuses and also friend or unfriend people. 
 
 ### Tech stack used in the project:

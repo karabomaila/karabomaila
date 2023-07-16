@@ -5,6 +5,8 @@ author: Karabo Maila
 
 It was honours Adaptive and Computational Machine Learning course project. It was a group project and I worked with 3 classmates. 
 
+![project image](/project_images/cousers-unsplash.jpg)
+
 The project was about developing a machine learning model and we chose to work with the Titanic dataset to predict if a passenger would survive the Titanic ship wreck. We tried different models on the dataset. We tried Random Forest Classifier, Naive Bayes and Deep Neural Networks. We compared them ad we were able to get a better accuracy of 83% with the Deep Neural Network. 
 
 ### Tech used in the project:
