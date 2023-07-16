@@ -1,0 +1,6 @@
+# Allow all crawler
+User-agent: *
+Allow: /
+
+# the website sitemap
+Sitemap: https://karabomaila.netlify.app/sitemap.xml
