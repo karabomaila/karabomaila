@@ -21,7 +21,7 @@ export default function Home() {
             <button className={ styles.message_button } ><Link href="/contact">Get In Touch </Link></button>
           </div>
           <div>
-              <Image className={ styles.img } src="/card_image.jpg" alt="Profile pic" width={250} height={250}/>
+              <Image className={ styles.img } src="/profile-picture.jpeg" alt="Profile pic" width={250} height={250}/>
           </div>
         </main>
         <section>
