@@ -19,11 +19,14 @@ export default function About()
                     <div className={ styles.about_content }>
                         <div className={ styles.about_header }>
                             <h1>About  <span>Karabo</span> </h1>
-                            <p>I am from Ivory Park, Midrand. I am self-motivated, hard working 
-                                and a disciplined individual. My strengths include being organised, willing
-                                to learn and punctual. I am passionate about software development and using 
-                                technology to change peoples lives. My interests are reading books, travelling,
-                                investing and meditation.
+                            <p>My name is Karabo Maila from Ivory Park, Midrand. I am a self-motivated,
+                            hard working and a disciplined individual. I am a purpose driven person,
+                            passionate about software development and using technology to change peoples lives.
+                            I love working on interesting software projects and projects that have a positive
+                            impact in the lives of the people who use it.
+                            <br>
+                                My interests are reading self-help and technical books, travelling, and investing.
+                            </br>
                             </p>
                         </div>
                         <div>
