@@ -17,7 +17,7 @@ export default function Home() {
         />
         <main className={styles.main}>
           <div className={ styles.header }>
-            <h1>Welcome to my website</h1>
+            <h1>Welcome to Karabo's website</h1>
             <button className={ styles.message_button } ><Link href="/contact">Get In Touch </Link></button>
           </div>
           <div>

@@ -38,7 +38,11 @@ export default function About()
                                 <Image src='/about_images/logo-css3.svg' alt='CSS Icon' width={250} height={250} />
                                 <Image src='/about_images/logo-javascript.svg' alt='JavaStript Icon' width={250} height={250} />
                                 <Image src='/about_images/logo-react.svg' alt='React Icon' width={250} height={250} />
-                                <Image src='/about_images/logo-next-js.svg' alt='Next Js Icon' width={250} height={250}/>
+                                <Image src='/about_images/nextjs-fill.svg' alt='Next Js Icon' width={250} height={250} />
+                                <Image src='/about_images/icons8-java.svg' alt='Java Icon' width={250} height={250} />
+                                <Image src='/about_images/springboot.svg' alt='Spring boot Icon' width={250} height={250} />
+                                <Image src='/about_images/thymeleaf.svg' alt='Thymeleaf Icon' width={250} height={250} />
+                                <Image src='/about_images/logo-python.svg' alt='Python Icon' width={250} height={250} />
                             </div>
                         </div>
                     </div>
