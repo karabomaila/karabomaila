@@ -98,7 +98,7 @@
 /* for smaller screens */
 @media only screen and (max-width: 1024px) {
   .header {
-    padding: 0px 0px;
+    padding: 10px 10px;
   }
   
   .logo {
@@ -115,7 +115,6 @@
   }
   
   /* to cover the whole page */
-
   .nav {
       position: fixed;
       top: 0;

@@ -11,7 +11,7 @@ export default function Navbar()
         <header className={ styles.header }>
              <Link href="/" className={ styles.logo }>Karabo Maila</Link>
             <nav className={ `${navActive? styles.responsive_nav: ""} ${styles.nav}` }>
-            <ul className={ styles.navbar_ul }>
+                <ul className={ styles.navbar_ul }>
                     <li><Link href="/">Home</Link></li>
                     <li><Link href="/projects">Projects</Link></li>
                     <li><Link href="/contact">Contact</Link></li>
