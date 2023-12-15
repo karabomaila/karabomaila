@@ -14,7 +14,7 @@ export default function Contact()
                 logo= { MetaData.logo }
                 url= { MetaData.url }
             />
-            <h1>Get In Touch With <span>Me</span> </h1>
+            <h1>Get In Touch With <span>Karabo</span> </h1>
             <div className={styles.form_container}>
                 <div>
                 <form action='https://formspree.io/f/moqbzkaa' method='POST'>
