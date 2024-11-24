@@ -9,7 +9,7 @@ export default function Navbar()
 
     return (
         <header className={ styles.header }>
-             <Link href="/" className={ styles.logo }>Karabo Maila</Link>
+            <Link href="/" className={ styles.logo }>Karabo Maila</Link>
             <nav className={ `${navActive? styles.responsive_nav: ""} ${styles.nav}` }>
                 <ul className={ styles.navbar_ul }>
                     <li><Link href="/">Home</Link></li>
