@@ -19,6 +19,12 @@ export default function Projects()
                 <h1>Projects</h1>
                 <div className={ styles.project_cards }>
                     <ProjectCard
+                        title="Medical Image Segmentation using Few-shot Learning Methods"
+                        description="Evaluating a Cross Attention Transformer model for clinical applications."
+                        projectImage="/project_images/fsl_model.jpeg"
+                        url="/projects/research-project"
+                    />
+                    <ProjectCard
                         title="Titanic Survivor Detection"
                         description="A Machine Learning model to predict if a
                         passenger would survive the Titanic ship wreck."
@@ -45,7 +51,7 @@ export default function Projects()
                         projectImage="/project_images/escape.jpg"   
                         url="/projects/escape-room-game"
                     />
-                   <ProjectCard
+                    <ProjectCard
                         title="Android chatting app"
                         description="A mobile app where users can invite and 
                         chart to each other, and also see status of their friends"

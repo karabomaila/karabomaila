@@ -3,18 +3,15 @@ import React from 'react';
 import path from 'path'
 import matter from 'gray-matter'
 import marked from 'marked'
-// import Link from 'next/link'
 import MetaData from '../../components/MetaData'
 import PageHead from '../../components/PageHead'
 import styles from '../../styles/projects.module.css'
 import Link from 'next/link';
-// import Image from 'next/image'
 import { FaArrowLeft } from "react-icons/fa"
 
 
 export default function Project({ frontmatter: { title, author}, slug, content })
 {
-    console.log(title)
     return (
         <div>
              {/* a head for the page */}

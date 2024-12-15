@@ -29,6 +29,12 @@ export default function Home() {
                     <h1>Recent Projects</h1>
                   <div className={ styles.project_cards }>
                     <ProjectCard
+                        title="Medical Image Segmentation using Few-shot Learning Methods"
+                        description="Evaluating a Cross Attention Transformer model for clinical applications."
+                        projectImage="/project_images/fsl_model.jpeg"
+                        url="/projects/research-project"
+                    />
+                    <ProjectCard
                         title="Titanic Survivor Detection"
                         description="A Machine Learning model to predict if a
                         passenger would survive the Titanic ship wreck."
@@ -40,12 +46,6 @@ export default function Home() {
                         description="A website to share info about myself"
                         projectImage="/project_images/portfolio.png"
                         url="/projects/portfolio-project"
-                    />
-                    <ProjectCard
-                        title="Wits Social"
-                        description="A chatting web app similar to Whatapp"
-                        projectImage="/project_images/Social_media_podcast_sharing.png"   
-                        url="/projects/wits-social"                
                     />
                   </div>
           </div>
