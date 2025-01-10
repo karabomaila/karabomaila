@@ -26,7 +26,7 @@ export default function Home() {
         </main>
         <section>
           <div className={ styles.recent_projects }>
-                    <h1>Recent Projects</h1>
+                    <h2>Recent Projects</h2>
                   <div className={ styles.project_cards }>
                     <ProjectCard
                         title="Medical Image Segmentation using Few-shot Learning Methods"

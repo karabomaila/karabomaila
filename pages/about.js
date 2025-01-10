@@ -32,7 +32,7 @@ export default function About()
                             </p>
                         </div>
                         <div>
-                            <h1>Skills</h1>
+                            <h2>Skills</h2>
                             <div className={ styles.skills }>
                                 <Image src='/about_images/logo-html5.svg' alt='HTML Icon' width={250} height={250} />
                                 <Image src='/about_images/logo-css3.svg' alt='CSS Icon' width={250} height={250} />
