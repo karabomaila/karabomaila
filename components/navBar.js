@@ -10,7 +10,7 @@ export default function Navbar()
 
     return (
         <header className={ styles.header }>
-            <Link href="/" ><Image className={ styles.logo } src="/favicon.ico" alt="Logo" width={45} height={45} /></Link>
+            <Link href="/" ><Image className={ styles.logo } src="/logo.ico" alt="Logo" width={45} height={45} /></Link>
             <nav className={ `${navActive? styles.responsive_nav: ""} ${styles.nav}` }>
                 <ul className={ styles.navbar_ul }>
                     <li><Link href="/">Home</Link></li>
