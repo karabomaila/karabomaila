@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { FaBars, FaTimes } from "react-icons/fa"
 import styles from '../styles/Navbar.module.css'
 import React, { useState } from "react"
+import Image from 'next/image'
 
 export default function Navbar()
 {
@@ -9,7 +10,7 @@ export default function Navbar()
 
     return (
         <header className={ styles.header }>
-            <Link href="/" ><img className={ styles.logo } src='/favicon.ico' /></Link>
+            <Link href="/" ><Image className={ styles.logo } src='/favicon.ico' width={45} height={45} /></Link>
             <nav className={ `${navActive? styles.responsive_nav: ""} ${styles.nav}` }>
                 <ul className={ styles.navbar_ul }>
                     <li><Link href="/">Home</Link></li>
