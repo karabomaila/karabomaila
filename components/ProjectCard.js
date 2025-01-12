@@ -14,7 +14,7 @@ const ProjectCard = ({title, description, projectImage, url}) =>
     return (
         <div className={styles.project_card} onClick={ (e) => handleOnclick(e, url) } >
                 <Image className={ styles.img } src={ projectImage } alt="project pic" width={200} height={200} />
-                <h2 className={ styles.card_title }>{ title }</h2>
+                <h3 className={ styles.card_title }>{ title }</h3>
                 <p className={styles.card_description}>{description}</p>
             </div>
     
