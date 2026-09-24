@@ -21,11 +21,11 @@ export default function About()
                             <h1>About  <span>Karabo</span> </h1>
                             <br />
                             <br />
-                            <p>My name is Karabo Maila from Ivory Park, Midrand. I am a self-motivated,
-                            hard working and a disciplined individual. I am a purpose driven person,
-                            passionate about software development and using technology to change peoples lives.
-                            I love working on interesting software projects and projects that have a positive
-                            impact in the lives of the people who use it.
+                            <p>Karabo Maila is a Software Engineer currently based in Johannesburg, South Africa. 
+                                Is a self-motivated, hard working and a disciplined individual.
+                                Is a purpose driven person, passionate about software engineering and using technology 
+                                to change peoples lives. Love's working on interesting software projects
+                                that have a positive impact in the lives of the people who use it.
                             <br />
                             <br /> 
                             My interests are reading self-help and technical books, travelling, and investing.
