@@ -34,15 +34,33 @@ export default function About()
                         <div>
                             <h2>Skills</h2>
                             <div className={ styles.skills }>
-                                <Image src='/about_images/logo-html5.svg' alt='HTML Icon' width={250} height={250} />
-                                <Image src='/about_images/logo-css3.svg' alt='CSS Icon' width={250} height={250} />
-                                <Image src='/about_images/logo-javascript.svg' alt='JavaStript Icon' width={250} height={250} />
-                                <Image src='/about_images/logo-react.svg' alt='React Icon' width={250} height={250} />
-                                <Image src='/about_images/nextjs-fill.svg' alt='Next Js Icon' width={250} height={250} />
-                                <Image src='/about_images/icons8-java.svg' alt='Java Icon' width={250} height={250} />
-                                <Image src='/about_images/springboot.svg' alt='Spring boot Icon' width={250} height={250} />
-                                <Image src='/about_images/thymeleaf.svg' alt='Thymeleaf Icon' width={250} height={250} />
-                                <Image src='/about_images/logo-python.svg' alt='Python Icon' width={250} height={250} />
+                                <span className={ styles.skill } data-label='HTML' role='img' aria-label='HTML' tabIndex={0}>
+                                    <Image src='/about_images/logo-html5.svg' alt='' width={250} height={250} />
+                                </span>
+                                <span className={ styles.skill } data-label='CSS' role='img' aria-label='CSS' tabIndex={0}>
+                                    <Image src='/about_images/logo-css3.svg' alt='' width={250} height={250} />
+                                </span>
+                                <span className={ styles.skill } data-label='JavaScript' role='img' aria-label='JavaScript' tabIndex={0}>
+                                    <Image src='/about_images/logo-javascript.svg' alt='' width={250} height={250} />
+                                </span>
+                                <span className={ styles.skill } data-label='React' role='img' aria-label='React' tabIndex={0}>
+                                    <Image src='/about_images/logo-react.svg' alt='' width={250} height={250} />
+                                </span>
+                                <span className={ styles.skill } data-label='Next.js' role='img' aria-label='Next.js' tabIndex={0}>
+                                    <Image src='/about_images/nextjs-fill.svg' alt='' width={250} height={250} />
+                                </span>
+                                <span className={ styles.skill } data-label='Java' role='img' aria-label='Java' tabIndex={0}>
+                                    <Image src='/about_images/icons8-java.svg' alt='' width={250} height={250} />
+                                </span>
+                                <span className={ styles.skill } data-label='Spring Boot' role='img' aria-label='Spring Boot' tabIndex={0}>
+                                    <Image src='/about_images/springboot.svg' alt='' width={250} height={250} />
+                                </span>
+                                <span className={ styles.skill } data-label='Thymeleaf' role='img' aria-label='Thymeleaf' tabIndex={0}>
+                                    <Image src='/about_images/thymeleaf.svg' alt='' width={250} height={250} />
+                                </span>
+                                <span className={ styles.skill } data-label='Python' role='img' aria-label='Python' tabIndex={0}>
+                                    <Image src='/about_images/logo-python.svg' alt='' width={250} height={250} />
+                                </span>
                             </div>
                         </div>
                     </div>
